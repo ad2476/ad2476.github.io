@@ -1,0 +1,53 @@
+/* Modeled after TeX resume style */
+
+main {
+  text-align:left;
+}
+
+section {
+  position: relative;
+  margin:2rem 0;
+}
+
+section h2 {
+  font-size:1.6rem;
+  position: absolute;
+  left:0;
+  top:0;
+  font-variant: small-caps;
+  max-width:10rem;
+  margin:0;
+}
+
+.res-section-text {
+  margin:0 0 0 10rem;
+}
+
+.res-section-text ul {
+  list-style-type:none;
+  margin:0;
+  padding:0 2.5rem;
+}
+
+.res-section-text p {
+  margin:0;
+}
+
+.res-job-company {
+  font-style:italic;
+  float:right;
+}
+
+.res-job-title {
+  font-weight:bold;
+  font-size:110%;
+}
+
+.res-job-loc {
+  font-style: italic;
+  font-size:80%;
+}
+
+.footnote {
+  font-size:80%;
+}
